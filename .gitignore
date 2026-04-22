@@ -1,0 +1,33 @@
+# Maven build output
+target/
+
+# Test reports and automation artifacts
+test-output/
+surefire-reports/
+reports/
+screenshots/
+allure-results/
+allure-report/
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java compiled artifacts
+*.class
+
+# Local environment files
+.env
+.env.*
