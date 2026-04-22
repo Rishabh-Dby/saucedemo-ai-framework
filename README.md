@@ -1,6 +1,6 @@
 # SauceDemo Automation Framework with AI Helpers
 
-This is a starter Selenium + TestNG framework for SauceDemo with two practical AI-style features:
+This is a Selenium + TestNG framework for SauceDemo with two practical AI-style features:
 
 1. **Self-healing locators** using ordered fallback locator strategies.
 2. **AI failure summary** using smart rule-based diagnosis and artifact generation.
@@ -78,20 +78,13 @@ After execution, check:
 - `test-output/screenshots`
 - `test-output/ai-summary`
 
-## How to explain this in interview
-You can say:
-
-> I built a Selenium-TestNG automation framework for SauceDemo using Page Object Model. I added a self-healing locator layer that retries alternate locator strategies when the primary locator fails. I also added an AI-style failure analyzer that reads the exception type, test context, and healing history to generate a human-readable root-cause summary with suggested next actions.
-
 ## Next upgrades
 ### Real AI failure summarization
-You can add:
 - OpenAI / Azure OpenAI / Gemini API integration
 - send stack trace + DOM snippet + last action + screenshot path
 - receive summarized root cause and suggested fix
 
 ### Advanced self-healing
-You can upgrade to:
 - Healenium
 - similarity scoring using DOM attributes
 - historical locator memory in JSON/DB
